@@ -6,10 +6,10 @@ In order to identify safe venting conditions, this project uses OpenFOAM to simu
 ## Instruments UsedCoalChemistry Foam, or OpenFOAM
 CFD modeling
 
-## ApproachThe mesh and simulation domain were created.
+## Approach: The mesh and simulation domain were created.
 Boundary conditions appliedConducted a study on grid independence
 
-## OutcomesRatio of vent opening: approximately 0.6
+## Outcomes:Ratio of vent opening: approximately 0.6
 Overpressure is restricted to less than two bars.
 
 ## Documents- case_files/: simulation configuration
