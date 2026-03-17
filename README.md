@@ -15,6 +15,5 @@ OpenFOAM (coalChemistryFoam)
 - Ratio of vent opening: approximately 0.6
 - Overpressure is restricted to less than two bars.
 
-## Documents- case_files/: simulation configuration
-- results/: output information
-- visualizations: pictures
+## Pressure time plots
+Uploaded in images
