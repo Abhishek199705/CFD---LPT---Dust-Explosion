@@ -1,7 +1,17 @@
-# Simulation of dust explosions in a silo
-The project was carried to to find the min ratio of vent opening in silo so that the over pressure in the silo is always below 2 bar. This becomes useful during design of pressure vents.
+# CFD Simulation of Dust Explosion
 
-## Replicating the simulations
-The simulation setup has been uploaded under case files. The simulations can be replicated by downloading the OpenFOAM setup files. The closed case is first simulated and then a vent opening is triggered when the pressure reaches a certain threshold (1.3 bar was used).
+## Overview
+In order to identify safe venting conditions, this project uses OpenFOAM to simulate dust explosion scenarios.
 
-The coalChemistryFoam CFD-LPT solver was used.
+## Instruments UsedCoalChemistry Foam, or OpenFOAM
+CFD modeling
+
+## ApproachThe mesh and simulation domain were created.
+Boundary conditions appliedConducted a study on grid independence
+
+## OutcomesRatio of vent opening: approximately 0.6
+Overpressure is restricted to less than two bars.
+
+## Documents- case_files/: simulation configuration
+- results/: output information
+- visualizations: pictures
